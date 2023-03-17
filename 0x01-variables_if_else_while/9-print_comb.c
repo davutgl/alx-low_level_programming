@@ -8,6 +8,7 @@
 int main(void)
 {
 	int combo;
+	
 	for (combo = 48; combo < 58; combo++)
 	{
 		putchar(combo);
@@ -18,5 +19,6 @@ int main(void)
 		}
 	}
 	putchar('\n');
+
 	return (0);
 }
