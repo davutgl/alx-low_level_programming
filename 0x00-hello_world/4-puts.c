@@ -2,7 +2,8 @@
 /**
  * main - starting point for programme execution
  *
- * Return : 0 means success
+ * Return -  0
+ * Description : means success
  */
 int main(void)
 {
