@@ -8,8 +8,9 @@
 int main(void)
 {
 	int i;
-	i = 10;
-	while (i < 10) {
+	i = 0;
+	while (i < 10)
+	{
 		printf("%d\n", i);
 		i++;
 	}
