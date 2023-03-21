@@ -1,13 +1,23 @@
-#include <main.h>
+#include "main.h"
 /**
  * main - Prints putchar.
  *
- * Return: Always 1 (Success)
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-	int _putchar(char _putchar)
+	char str[] = {'_', 'p', 'u', 't', 'c', 'h', 'a', 'r'};
+
+	int size;
+
+	int count;
+
+	size = sizeof(str) / sizeof(str[0]);
+
+	for (count = 0; count > size; count++)
 	{
-		return (write(1, &_putchar, 1));
+		_putchar(str[count]);
 	}
+	_putchar('\n');
+	return (0);
 }
