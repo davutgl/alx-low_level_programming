@@ -2,6 +2,8 @@
 /**
  * _abs - computes absolute value
  *
+ *@n: input integer
+ *
  * Return: Always 0 (Success)
  */
 int _abs(int n)
