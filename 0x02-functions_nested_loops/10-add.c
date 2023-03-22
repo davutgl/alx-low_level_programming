@@ -2,7 +2,10 @@
 /**
  * add - adds 2 int and prints result
  *
- * Return: Always 0 (Success)
+ *@x: integer one
+ *@y: integer two
+ *
+ * Return: result
  */
 int add(int x, int y)
 {

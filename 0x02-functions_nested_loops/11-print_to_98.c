@@ -3,6 +3,8 @@
 /**
  * print_to_98 - prints all natural numbers, n to 98
  *
+ *@n: input number.
+ *
  * Return: no return
  */
 void print_to_98(int n)

@@ -2,6 +2,8 @@
 /**
  * _isalpha - checks for alphabetic char.
  *
+ *@c: ASCII character
+ *
  * Return: 1 for lower/uppercase, 0 otherwise
  */
 int _isalpha(int c)
