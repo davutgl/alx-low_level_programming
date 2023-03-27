@@ -8,13 +8,13 @@ void print_rev(char *s)
 {
 	int reverse = 0;
 
-	while(reverse >= 0)
+	while (reverse >= 0)
 	{
-		if(s[reverse] == '\0')
+		if (s[reverse] == '\0')
 			break;
 		reverse++;
 	}
-	for(reverse--; reverse >= 0; reverse--)
+	for (reverse--; reverse >= 0; reverse--)
 		_putchar(s[reverse]);
 	_putchar('\n');
 }
